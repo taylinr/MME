@@ -14,7 +14,7 @@ public class GameObject_Script : MonoBehaviour
         int objectCount = 5;
 
         for(int i = 0; i < objectCount; i++){
-            Vector3 vector3 = new Vector3(UnityEngine.Random.Range(-10, 10), UnityEngine.Random.Range(-10, 10), UnityEngine.Random.Range(-10, 10));
+            Vector3 vector3 = new Vector3(UnityEngine.Random.Range(-10, 10), 0, UnityEngine.Random.Range(-10, 10));
             Instantiate(myPrefab, vector3, Quaternion.identity);
         }
     }

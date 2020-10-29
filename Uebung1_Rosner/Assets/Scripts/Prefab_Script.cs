@@ -13,6 +13,6 @@ public class Prefab_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.rotation = Quaternion.Euler(0, Mathf.Cos(Time.time) * 360, Mathf.Sin(Time.time) * 360);
+        transform.rotation = Quaternion.Euler(0, Mathf.Sin(Time.time) * 360, 0);
     }
 }
