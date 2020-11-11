@@ -999,7 +999,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5379da88796451d4da7e910eb3327516, type: 2}
+  - {fileID: 2100000, guid: 554f6466542b5c7479dd5f70d0b6df9c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1458,7 +1458,52 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a7de59bfb9e7dd749a0a90b82be7b907, type: 2}
+      objectReference: {fileID: 2100000, guid: d1bd5c6d45340094d96b6b2343556120, type: 2}
+    - target: {fileID: 582333655122869624, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 582333655122869624, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182286738481980348, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182286738481980348, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.x
+      value: 0.7529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182286738481980348, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182286738481980348, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182286738481980348, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Name
+      value: New Color
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182286738481980348, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1182286738481980348, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_InitialEventNameOverriden
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1318434866768379693, guid: 51efeddd9437e7640911a2897b78bf74,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1518,6 +1563,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Camara Analogica
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351891423660226109, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351891423660226109, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708002871564287139, guid: 51efeddd9437e7640911a2897b78bf74,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51efeddd9437e7640911a2897b78bf74, type: 3}
