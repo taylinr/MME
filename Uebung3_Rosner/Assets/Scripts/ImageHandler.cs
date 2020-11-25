@@ -10,6 +10,9 @@ public class ImageHandler : MonoBehaviour
     public GameObject _content;
     private void Start()
     {
+
+        _content.SetActive(false);
+
         if(!_trackedImageManager)
         {
         _trackedImageManager = GetComponent<ARTrackedImageManager>();
@@ -22,12 +25,15 @@ public class ImageHandler : MonoBehaviour
     {
     foreach (var trackedImage in eventArgs.added)
         {
+
+        _content.SetActive(true);
+        _content.transform.parent = trackedImage.transform;
+
         var minLocalScalar = Mathf.Min(trackedImage.size.x, trackedImage.size.y) / 2;
         trackedImage.transform.localScale = new Vector3(minLocalScalar,
         minLocalScalar,
         minLocalScalar);
-        _content.transform.parent = trackedImage.transform;
-        _content.transform.localScale = Vector3.one;
+        // _content.transform.localScale = Vector3.one;
         }
     }
 }
